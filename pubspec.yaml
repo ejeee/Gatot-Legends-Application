@@ -1,0 +1,33 @@
+name: epicwarrior
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 3.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - lib/app/assets/baground.png
+    - lib/app/assets/TANAH.png
+    - lib/app/assets/FIGHT.png
+    - lib/app/assets/fight pass.png
+    - lib/app/assets/QUEST.png
+    - lib/app/assets/arena.png
+    - lib/app/assets/SETTING.png
+    - lib/app/assets/+.png
+    - lib/app/assets/dollar.png
+    - lib/app/assets/gems.png
+    - lib/app/assets/Pixel.png
+
